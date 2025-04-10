@@ -1,3 +1,6 @@
+import React from "react";
+import About from "./components/About";
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-8">
@@ -12,6 +15,8 @@ function App() {
           I specialize in React and Tailwind CSS. Always eager to learn and explore new technologies.
         </p>
       </section>
+
+      {/* You can add more sections below */}
     </div>
   );
 }
