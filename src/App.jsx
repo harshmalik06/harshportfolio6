@@ -1,24 +1,17 @@
-import React from "react";
-import About from "./components/About";
-
-function App() {
+function About() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-8">
-      {/* Hero Section */}
-      <h1 className="text-4xl font-bold mb-6 text-center">Hello, I'm Harsh Malik</h1>
-
-      {/* About Me Section */}
-      <section className="max-w-2xl mx-auto mb-10">
-        <h2 className="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">About Me</h2>
-        <p className="text-lg leading-relaxed">
-          I’m a frontend developer who loves building responsive and interactive web applications.
-          I specialize in React and Tailwind CSS. Always eager to learn and explore new technologies.
-        </p>
-      </section>
-
-      {/* You can add more sections below */}
-    </div>
+    <section className="max-w-2xl mx-auto p-6 text-white">
+      <h2 className="text-2xl font-semibold mb-4 border-b border-gray-700 pb-2">About Me</h2>
+      <p className="text-lg leading-relaxed">
+        Hi, I'm Harsh Malik, a passionate Motion Graphic Designer with a strong love for visual storytelling, animation, and music.
+        I specialize in Adobe After Effects and Photoshop, and have worked on freelance projects ranging from rap video edits and lyric visuals to poster designs.
+        <br /><br />
+        Music is my main inspiration — it's the reason I stepped into this creative field. I believe my creativity stands out because I can take any reference and turn it into something fresh, unique, and perfectly reimagined.
+        <br /><br />
+        I'm always looking for challenging, creative projects that push my skills further and let me bring ideas to life in bold, expressive ways.
+      </p>
+    </section>
   );
 }
 
-export default App;
+export default About;
